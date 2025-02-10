@@ -1,16 +1,9 @@
 package org.example;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
-import java.util.stream.Collectors;
 
 
 public class Movie {
 
-    private static final String COMMA_DELIMITER = "," ;
     String id;
     String title;
     int releaseYear;
