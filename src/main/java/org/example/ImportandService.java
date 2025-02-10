@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ImportCSV {
+public class ImportandService {
 
     public List<Movie> movies = new ArrayList<>();
     public Map<String, Actor> actors = new HashMap<>();
@@ -262,6 +262,4 @@ public class ImportCSV {
             System.out.println("No valid actor data found.");
         }
     }
-
-
 }
