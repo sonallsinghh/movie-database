@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Welcome to the Movie Database System!!!");
 
-        ImportCSV movieService = new ImportCSV();
+        ImportandService movieService = new ImportandService();
 
         // Load CSV files from the resource directory
         movieService.loadMovies();
